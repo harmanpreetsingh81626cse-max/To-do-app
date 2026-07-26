@@ -8,6 +8,35 @@
     margin :auto;
 
 }
+.input-section #add-task{
+    margin-left :10px;
+    color:white;
+    background-color:blue;
+    border:none;
+    padding:8px;
+    border-radius:5px;
+    font-size:14px;
+    font-weight: bold;
+}
+.filters{
+    display:flex;
+    justify-content: space-between;
+
+}
+.filters button{
+    margin-top:20px;
+    margin-left:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    color : white;
+    background-color:blue;
+    border : none;
+    padding : 8px;
+    font-size: 14px;
+    font-weight: bold;
+    border:none;
+    border-radius : 5px;
+}
 #tasklist{
     list-style: none;
     overflow-y:auto;
@@ -31,4 +60,8 @@
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
-
+.input-section #task{
+    padding :8px;
+    font-size:14px;
+    margin-left:12px;
+}
